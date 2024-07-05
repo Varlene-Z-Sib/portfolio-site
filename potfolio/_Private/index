@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varlene Zazise Sibanda - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        #main {
+            padding: 20px;
+        }
+        #profile, #skills, #education, #courses, #contact {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="#">Varlene Zazise Sibanda</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="main" class="container">
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>I am a dedicated university student pursuing a B.S. in Computer Sciences. I have become proficient in using the latest development tools, various programming languages, and operating systems. Along with my self-manager skills obtained from doing individual projects, I am a valuable team player. I possess strong organizational and time-management skills, and I am committed to staying updated with industry trends and leveraging innovative technologies. In addition to that, I am passionate about solving complex problems in innovative ways to optimize user experiences.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Effective Communication</li>
+                <li>Time Management and Prioritization</li>
+                <li>Public Speaking and Presentation</li>
+                <li>Creative Problem Solving</li>
+                <li>Agile Leadership and Collaboration</li>
+                <li>Adaptability to Change</li>
+                <li>Analytical Decision Making</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Oceans Private School</strong><br>Bachelors pass | Year of graduation: 2022</p>
+            <p>Engaged in extracurricular activities and clubs such as:</p>
+            <ul>
+                <li>Soccer - Exemplified discipline through regular practice, physical conditioning, and maintaining a strong work ethic.</li>
+                <li>Events committee - Demonstrated exceptional organizational abilities and meticulous attention to detail to ensure flawless execution of events.</li>
+                <li>Entrepreneurial club - Served as a co-administrator and exhibited an entrepreneurial mindset, fostering creativity, resourcefulness, and a proactive approach to problem-solving.</li>
+            </ul>
+            <p>Served in a leadership role as a student body Prefect which allowed me to gain skills such as Leadership, Teamwork, Event Planning, and Reliability.</p>
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <ul>
+                <li><strong>Digital Marketing</strong> | Programming Hub | Feb 2022<br>Extensive coursework covering digital marketing strategies, including social media marketing, search engine optimization (SEO), and content creation.</li>
+                <li><strong>Cyber Security</strong> | Programming Hub | April 2022<br>In-depth study of cybersecurity principles, techniques, and best practices to protect digital systems from threats and vulnerabilities.</li>
+                <li><strong>Artificial Intelligence</strong> | Programming Hub | Jan 2022<br>Extensive explanation of artificial intelligence principles and machine learning algorithms.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> +27 62 505 9440</p>
+                <p><strong>Email:</strong> zazisesib@gmail.com</p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/varlene-sibanda-8a56ab231">linkedin.com/in/varlene-sibanda-8a56ab231</a></p>
+            </div>
+            <h3>References</h3>
+            <p><strong>Mr. Lionel Nitu</strong><br>Email: info@oceansprivateschool.co.za<br>Phone: 0604612867</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Varlene Zazise Sibanda</p>
+    </footer>
+</body>
+</html>
